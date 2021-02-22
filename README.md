@@ -15,6 +15,9 @@ CircleCI -> Go to Application -> Project -> Repo name 에 현재 프로젝트 �
   - environment: 맵임, 환경변수와 값들을 위한. (필수로 작성 X)
 
 
+### 준비물
+- 아래에 가서 Spring Boot의 hello world 
+  - https://i5i5.tistory.com/253
 
 
 
