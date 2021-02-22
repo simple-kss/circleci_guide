@@ -1,6 +1,6 @@
 # circleci_guide
 
-CircleCI -> Go to Application -> Project -> Repo name 에 현재 프로젝트 등록
+
 
 ### 기본 용어
 - version : CircleCI의 언어 버전
@@ -18,6 +18,14 @@ CircleCI -> Go to Application -> Project -> Repo name 에 현재 프로젝트 �
 ### 준비물
 - 아래에 가서 Spring Boot의 hello world 
   - https://i5i5.tistory.com/253
+
+### 단계
+1. CircleCI -> Go to Application -> Project -> Repo name 에 현재 Git 프로젝트 등록
+2. Add config를 누른 뒤 'Hello World' 를 클릭하고 'Gradle (java)' 클릭하고 'Commit and Run'
+3. 오른쪽에 점 세개 클릭
+4. Configuration file 클릭
+5. 
+
 
 
 
