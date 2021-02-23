@@ -32,7 +32,7 @@ jobs:
       - run:
           command: |
             ls -al 
-            ./demo/gradlew bootjar
+            demo/.gradlew bootjar
         # ls -al
 
         
