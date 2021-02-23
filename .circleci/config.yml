@@ -29,17 +29,18 @@ jobs:
             # # fallback to using the latest cache if no exact match is found
              - v1-dependencies-
 
-      - run: ls -al
-        
-          #command: ./gradlew bootjar
+      - run:
+          command: |
+            ls -al 
+            ./demo/gradlew bootjar
         # ls -al
 
         
 
-      #- save_cache:
+      - save_cache:
           #paths:
             #- ~/demo/.gradle
-          # key: v1-dependencies-{{ checksum "build.gradle" }}
+          key: v1-dependencies-{{ checksum "demo/build.gradle" }}
 
       # run tests!
       #- run: gradle test
