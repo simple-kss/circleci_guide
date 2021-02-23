@@ -32,9 +32,11 @@ jobs:
              - v1-dependencies-
 
       - run:
+        command: 
+          pwd;
+          gradle dependencies;
         # ls -al
-         - command: pwd;
-         - command: gradle dependencies;
+
         
 
       #- save_cache:
