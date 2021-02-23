@@ -32,7 +32,7 @@ jobs:
              - v1-dependencies-
 
       - run:
-          command: ./gradlew bootjar
+          #command: ./gradlew bootjar
         # ls -al
 
         
