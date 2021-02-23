@@ -32,7 +32,7 @@ jobs:
              - v1-dependencies-
 
       - run:
-        command: gradle dependencies
+          command: gradle dependencies
         # ls -al
 
         
