@@ -33,8 +33,8 @@ jobs:
 
       - run:
         # ls -al
-         - pwd
-         - gradle dependencies
+         - command: pwd;
+         - command: gradle dependencies;
         
 
       #- save_cache:
