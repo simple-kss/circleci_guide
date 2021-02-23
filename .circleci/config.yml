@@ -33,7 +33,7 @@ jobs:
           command: |
             ls -al 
             cd demo
-            ./gradlew bootjar
+            gradlew bootjar
         # ls -al
 
         
